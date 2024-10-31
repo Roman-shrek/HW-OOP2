@@ -18,8 +18,8 @@ public class Main {
             transports[i + bicycles.length + cars.length] = trucks[i];
         }
         ServiceStation serviceStation = new ServiceStation();
-        serviceStation.check(transports[2]);
+        serviceStation.check(transports[1]);
         System.out.println();
-        serviceStation.check(bicycles[1]);
+        serviceStation.check(cars[0]);
     }
 }
